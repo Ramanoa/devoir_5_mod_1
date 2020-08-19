@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>panier</title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">
+</head>
+<body>
+
+	<!-- HEADER BEGIN -->
+	<div class="item_1">
+		<div class="container text-center">
+			<h1 id="item_2">VAKITENY</h1>
+			<p id="item_3">Voyager à travers les livres</p>
+		</div>
+	</div>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				<li><a href="home.html"><span class="fa fa-home">&nbsp;&nbsp;Accueil</span></a></li>
+				<li><a href="bibliothèque.html"><span class="fa fa-book">&nbsp;&nbsp;Bibliothèque</span></a></li>
+				<li><a href="contact.html"><span class="fa fa-envelope">&nbsp;&nbsp;Contact</span></a></li>
+				<li><a href="about.html">A propos</a></li>
+			</ul>
+			
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="panier.html"><span class="fa fa-shopping-cart">&nbsp;</span>Paniers</a></li>
+				<li class="dropdown_1"><a href="#"><span class="fa fa-user"></span>&nbsp;&nbsp;Compte <span class="caret"></span></a>
+				<div class="dropdown_contenu">
+					<a href=""><i class="fa fa-sign-in">&nbsp;</i>Se connecter</a>
+					<a href=""><i class="fa fa-user-plus">&nbsp;</i>Nouveau compte</a>
+				</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- HEADER END -->
+
+
+	<!-- CONTENT BEGIN -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2" id="content_1">
+				<form>
+					<label>Classer par :</label>
+					<div class="form-group">
+						<select class="form-control" id="sel1">
+							<option>Titre</option>
+							<option>Auteur</option>
+							<option>Année</option>
+							<option>Edition</option>
+							<option>Genre</option>
+						</select>
+					</div>
+				</form>
+				<div class="radio" id="select_version">
+					<label><input type="radio" name="" checked> Tous</label>
+				</div>
+				<div class="radio" id="select_version">
+					<label><input type="radio" name="" checked> Version livre</label>
+				</div>
+				<div class="radio" id="select_version">
+					<label><input type="radio" name="" disabled> Version numérique</label>
+				</div>
+				<div class="radio" id="select_version">
+					<label><input type="radio" name="" disabled> Version audio</label>
+				</div><hr>
+				<form class="sidebar">
+					<label><span class="fa fa-search-plus"></span> Recherche personnalisée </label>
+					<select class="form-control" id="sel1">
+							<option>Auteur</option>
+							<option>Genre</option>
+							<option>Prix (En Ariary)</option>
+					</select>
+					<input type="text" name="" placeholder="Taper ici ...">
+				</form>
+			</div>
+
+			<div class="col-md-10">
+				<div class="row" id="content_4">
+					<div class="col-md-8">
+						<button type="submit" class="btn btn-default"><i class="fa fa-th-list"></i></button>
+						<button type="submit" class="btn btn-default"><i class="fa fa-th-large"></i></button>
+					</div>
+					<div class="col-md-4">
+					</div>
+			
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Liste des pré - commandes</h2>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th>Rèf.</th>
+									<th>Titre</th>
+									<th>Auteur</th>
+									<th>Action</th>
+									<th>Prix</th>
+									<th>Mode de paiement</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>A02</td>
+									<td>La conspiration</td>
+									<td>Paul Christopher</td>
+									<td>
+										<button type="submit" class="btn btn-primary"><i class="fa fa-eye"></i></button>						<button type="submit" class="btn btn-danger"><i class="fa fa-trash"></i></button></td>
+									<td>20.000 Ariary</td>
+									<td>
+										<select class="form-control" id="sel1">
+											<option><span class="fa fa-cc-paypal">Virement bancaire</span></option>
+											<option>MVola</option>
+											<option>Orange Money</option>
+											<option>Airtel Money</option>
+										</select>
+									</td>
+									<td><button type="button" class="btn btn-success"><span class="fa fa-money">&nbsp;Payer</span></button></td>
+								</tr>
+								<tr>
+									<td>A05</td>
+									<td>La Terre des morts</td>
+									<td>Jean-Cristophe GRANGE</td>
+									<td>
+										<button type="submit" class="btn btn-primary"><i class="fa fa-eye"></i></button>						<button type="submit" class="btn btn-danger"><i class="fa fa-trash"></i></button></td>
+									<td>22.000 Ariary</td>
+									<td>
+										<select class="form-control" id="sel1">
+											<option><span class="fa fa-cc-paypal">Virement bancaire</span></option>
+											<option>MVola</option>
+											<option>Orange Money</option>
+											<option>Airtel Money</option>
+										</select>
+									</td>
+									<td><button type="button" class="btn btn-success"><span class="fa fa-money">&nbsp;Payer</button></td>
+								</tr>
+								<tr>
+									<td>A02</td>
+									<td>La légion perdue</td>
+									<td>Paul Christopher</td>
+									<td>
+										<button type="submit" class="btn btn-primary"><i class="fa fa-eye"></i></button>						<button type="submit" class="btn btn-danger"><i class="fa fa-trash"></i></button></td>
+									<td>22.000 Ariary</td>
+									<td>
+										<select class="form-control" id="sel1">
+											<option><span class="fa fa-cc-paypal">Virement bancaire</span></option>
+											<option>MVola</option>
+											<option>Orange Money</option>
+											<option>Airtel Money</option>
+										</select>
+									</td>
+									<td><button type="button" class="btn btn-success"><span class="fa fa-money">&nbsp;Payer</button></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Liste des commandes payés</h2>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th>Rèf.</th>
+									<th>Titre</th>
+									<th>Auteur</th>
+									<th>Action</th>
+									<th>Prix</th>
+									<th>Mode de paiement</th>
+									<th></th>
+								</tr>
+							</thead>
+						</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- CONTENT END -->
+
+
+	<!-- FOOTER BEGIN -->
+	<footer class="container-fluid text-center">
+		<p>Librairie en ligne VAKITENY&#153; copyright &#169; 2020 - Manoa Ranaivo</p>
+		<h6>
+			<span class="fa fa-facebook-square"> vakiteny online library&nbsp;&nbsp;|</span>&nbsp;&nbsp;
+			<span class="fa fa-twitter"> @vakiteny_lib&nbsp;&nbsp;|</span>&nbsp;&nbsp;
+			<span class="fa fa-whatsapp"> +261 33 383 35</span>
+		</h6>
+	</footer>
+	<!-- FOOTER END -->
+	
+</body>
+</html>

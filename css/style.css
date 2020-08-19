@@ -1,0 +1,188 @@
+body{
+	font-family: Arial;
+}
+
+div.item_1{
+	height: 150px;
+	background-color: #cc0000;
+}
+
+#item_2{
+	font-family: Jokerman;
+	font-size: 60px;
+	letter-spacing: 3px;
+	color: white;
+}
+
+#item_3{
+	color: lightgray;
+	font-family: Juice ITC;
+	font-size: 25px;
+}
+
+.navbar{
+	margin-bottom: 50px;
+	border-radius: 0;
+	border: 0px;
+}
+
+.dropdown_1{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown_contenu{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown_contenu a{
+	color: #001a33;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown_contenu a:hover{
+	text-decoration: underline;
+}
+
+.dropdown_1:hover .dropdown_contenu{
+	display: block;
+}
+
+h2.item_4{
+	font-family: Juice ITC;
+	text-align: center;
+}
+
+h3.item_5{
+	color: #cc0000;
+	font-family: Old English Text MT;
+	text-align: center;
+}
+
+#img_accueil{
+	width:100%;
+}
+#pan_foot p, h6{
+	text-align: center;
+}
+footer {
+	color: #1a0000;
+	background-color: lightgrey;
+    padding: 10px;
+}
+
+div#content_1{
+	color: white;
+	background-color: #323432;
+	text-align: center;
+	opacity: 0.8;
+	box-shadow: 0 5px 5px 0 black;
+	border: 1px solid #323432;
+}
+
+.sidebar input[type=text]{
+	width: 100%;
+	padding: 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid lightgray;
+}
+
+div#select_version{
+	text-align: left;
+}
+
+ul#liste_paniers{
+	text-align: left;
+}
+
+div#item_6{
+	text-align: center;
+}
+
+div.action_side{
+	text-align: center;
+}
+
+h2.item_7{
+	font-family: Juice ITC;
+	text-align: center;
+	font-size: 50px;
+}
+h3.item_8{
+	color: #cc0000;
+	font-family: Old English Text MT;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+div#content_2{
+	background-color: lightgray;
+	opacity: 0.9;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	box-shadow: 0 5px 5px 0 black;
+	border: 1px solid grey;
+	border-radius: 3px;
+}
+
+ol#conditional{
+	text-align: left;
+}
+
+h5.item9{
+	text-align: center;
+}
+
+.item_9 a{
+	text-decoration: none;
+	color: lightgray;
+}
+
+.item_9 a:hover{
+	cursor: pointer;
+	font-weight: bold;
+	color: #ae041e;
+}
+
+a#contact_actif{
+	font-weight: bold;
+	color: white;
+}
+
+h2.item_8{
+	text-align: center;
+}
+
+div#content_3{
+	background-color: lightgray;
+	opacity: 0.9;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	box-shadow: 0 5px 5px 0 black;
+	border: 1px solid grey;
+	border-radius: 3px;
+	text-align: justify;
+	background-image: url(images/background.jpg);
+}
+
+div#content_4{
+	opacity: 0.9;
+	margin-left: 5px;
+	margin-bottom: 15px;
+	text-align: justify;
+	background-image: url(images/background.jpg);
+}
+th, td{
+	text-align: center;
+}
+
+img:hover{
+	cursor: pointer;
+}
